@@ -1,10 +1,10 @@
-import FavoritesScreen from '../../pages/favorites-screen/favorites-screen';
-import FavoritesEmptyScreen from '../../pages/favorites-empty-screen/favorites-empty-screen';
-import LoginScreen from '../../pages/login-screen/login-screen';
-import MainEmptyScreen from '../../pages/main-empty-screen/main-empty-screen';
 import MainScreen from '../../pages/main-screen/main-screen';
-import PropertyNotLoggedScreen from '../../pages/property-not-logged-screen/property-not-logged-screen';
-import PropertyScreen from '../../pages/property-screen/property-screen';
+// import FavoritesScreen from '../../pages/favorites-screen/favorites-screen';
+// import FavoritesEmptyScreen from '../../pages/favorites-empty-screen/favorites-empty-screen';
+// import LoginScreen from '../../pages/login-screen/login-screen';
+// import MainEmptyScreen from '../../pages/main-empty-screen/main-empty-screen';
+// import PropertyNotLoggedScreen from '../../pages/property-not-logged-screen/property-not-logged-screen';
+// import PropertyScreen from '../../pages/property-screen/property-screen';
 
 type AppScreenProps = {
   cards: {
