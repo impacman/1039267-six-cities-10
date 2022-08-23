@@ -1,4 +1,4 @@
-const NotFoundScreen = (): JSX.Element => (
+const NotFound = (): JSX.Element => (
   <div className="page">
     <header className="header">
       <div className="container">
@@ -31,4 +31,4 @@ const NotFoundScreen = (): JSX.Element => (
   </div>
 );
 
-export default NotFoundScreen;
+export { NotFound };

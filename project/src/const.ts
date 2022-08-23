@@ -15,6 +15,7 @@ export enum AppRouters {
   Login = '/login',
   Favorites = '/favorites',
   Room = '/offer',
+  Demo = '/demo',
   NotFound = '*',
 }
 

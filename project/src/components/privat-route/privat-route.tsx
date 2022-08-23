@@ -12,4 +12,4 @@ const PrivatRoute = ({autorizationStatus, children}: PrivatRouteProps): JSX.Elem
     : <Navigate to={AppRouters.Login} />
 );
 
-export default PrivatRoute;
+export { PrivatRoute };

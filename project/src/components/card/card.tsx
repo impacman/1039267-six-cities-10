@@ -1,17 +1,12 @@
-type CardProps = {
-  card: {
-    premium: boolean,
-    img: string,
-    price: number,
-    rating: number,
-    name: string,
-    type: string,
-    bookmark: boolean
-  }
+import { useState } from 'react';
+import { Cards } from '../../types/offers';
+
+type Props = {
+  card: Cards
 }
 
-const Card = ({card}: CardProps): JSX.Element => {
-  const { premium, img, price, rating, name, type, bookmark } = card;
+const Card = ({ card }: Props): JSX.Element => {
+  const { premium, img, price, rating, name, type, bookmark, location } = card;
 
   return (
     <article className="cities__card place-card">
@@ -57,4 +52,4 @@ const Card = ({card}: CardProps): JSX.Element => {
   );
 };
 
-export default Card;
+export { Card };
