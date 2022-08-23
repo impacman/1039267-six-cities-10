@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Cards } from '../../types/offers';
 
 type Props = {
@@ -6,7 +5,7 @@ type Props = {
 }
 
 const Card = ({ card }: Props): JSX.Element => {
-  const { premium, img, price, rating, name, type, bookmark, location } = card;
+  const { premium, img, price, rating, name, type, bookmark } = card;
 
   return (
     <article className="cities__card place-card">
